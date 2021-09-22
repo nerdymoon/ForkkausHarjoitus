@@ -12,5 +12,7 @@ public class SekunnitVuorokaudessa {
         int sekunnitVrk = ((60*60)*24)*lkm;
         System.out.println(sekunnitVrk);
 
+        lukija.close();
+
     }
 }
