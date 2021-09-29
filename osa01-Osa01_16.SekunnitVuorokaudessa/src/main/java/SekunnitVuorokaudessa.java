@@ -14,5 +14,10 @@ public class SekunnitVuorokaudessa {
 
         lukija.close();
 
+	System.out.println("Hienoa työtä!")
+
+	System.out.println("Miten forkkaus meni mielestäsi?");
+	String mielipide = lukija.nextLine();
+
     }
 }
